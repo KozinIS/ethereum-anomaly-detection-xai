@@ -4,7 +4,7 @@ An explainable anomaly detection framework for Ethereum transactions based on an
 
 The repository contains the reproducible Proof of Concept accompanying the research paper. The notebook implements the complete experimental pipeline, including data preprocessing, autoencoder architecture comparison, threshold calibration, explainability analysis, comparison with alternative anomaly detection methods, and final holdout evaluation.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KozinIS/ethereum-anomaly-detection-xai/blob/main/AE-XAI-Ethereum.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KozinIS/ethereum-anomaly-detection-xai/blob/main/notebooks/ethereum_anomaly_detection_xai_RU.ipynb)
 
 ## Quick Start
 
