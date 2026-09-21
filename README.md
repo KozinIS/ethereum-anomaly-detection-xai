@@ -30,22 +30,21 @@ Two execution scenarios are supported:
 
 ```text
 ethereum-anomaly-detection-xai/
-├── data/
-│   ├── source/                 # Raw and parsed Ethereum transaction data
-│   └── splits/                 # Train, validation, calibration, and holdout test sets
-├── preprocessing/              # Preprocessing artifacts and fitted scaler
-├── models/
-│   ├── autoencoders/           # Trained autoencoder models
-│   └── alternative_methods/    # Isolation Forest, LOF, and VAE artifacts
-├── results/
-│   ├── training_history/
-│   ├── shap/
-│   ├── attention/
-│   ├── explainability_comparison/
-│   ├── alternative_methods/
-│   └── model_6_analysis/
-└── notebooks/
-    └── ethereum_anomaly_detection_xai_RU.ipynb
+├── data/                       # Raw, parsed, and prepared datasets
+│   ├── source/                 # Raw and parsed transaction data
+│   └── splits/                 # Train, validation, calibration, holdout
+├── models/                     # Trained models and model artifacts
+│   ├── alternative_methods/    # Isolation Forest, LOF, and VAE
+│   └── autoencoders/           # Trained autoencoder models
+├── notebooks/                  # Jupyter notebooks
+├── preprocessing/              # Scaler and preprocessing artifacts
+└── results/                    # Experimental results and figures
+    ├── alternative_methods/    # Alternative-method comparison results
+    ├── attention/              # Attention analysis results
+    ├── explainability_comparison/ # SHAP vs. attention comparison
+    ├── model_6_analysis/       # Final Model 6 analysis
+    ├── shap/                   # SHAP values and feature importance
+    └── training_history/       # Training-history figures
 ```
 
 
