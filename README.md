@@ -83,3 +83,10 @@ Matplotlib
 This repository accompanies the research paper describing the proposed anomaly detection and explainability framework.
 
 A link to the preprint will be added after publication on arXiv.
+
+
+## License
+
+The source code in this repository is licensed under the MIT License. See the `LICENSE` file for details.
+
+Dataset usage conditions should be considered separately from the software license.
