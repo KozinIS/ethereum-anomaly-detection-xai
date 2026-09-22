@@ -1,0 +1,6 @@
+# Tested with Python 3.12.13
+
+numpy==2.0.2
+pandas==2.2.2
+tensorflow==2.20.0
+shap==0.51.0
