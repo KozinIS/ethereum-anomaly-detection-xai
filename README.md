@@ -6,11 +6,9 @@ The repository contains the reproducible Proof of Concept accompanying the resea
 
 ## Notebooks
 
-### English version
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KozinIS/ethereum-anomaly-detection-xai/blob/main/notebooks/ethereum_anomaly_detection_xai_EN.ipynb)
+[Open Notebook](notebooks/ethereum_anomaly_detection_xai_EN.ipynb)
 
-### Russian version
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KozinIS/ethereum-anomaly-detection-xai/blob/main/notebooks/ethereum_anomaly_detection_xai_RU.ipynb)
+The notebook contains the complete experimental workflow, including data preprocessing, model training and evaluation, explainability analysis, and comparison with alternative anomaly detection methods.
 
 
 ## Quick Start
