@@ -1,4 +1,4 @@
-# Explainable Autoencoder for Ethereum Anomaly Detection
+# Explainable Attention-Based Autoencoder for Anomaly Detection in Ethereum Transactions
 
 An explainable anomaly detection framework for Ethereum transactions based on an autoencoder with an attention mechanism and SHAP-based interpretation.
 
@@ -15,12 +15,13 @@ The notebook contains the complete experimental workflow, including data preproc
 
 The recommended way to reproduce the experiments is Google Colab.
 
-1. Click the **Open in Colab** button above.
-2. Run the notebook from the beginning using **Runtime → Run all**.
-3. Leave `SAVE_ARTIFACTS = False` for the standard reproducible run.
-4. Set `SAVE_ARTIFACTS = True` only if you want generated datasets, trained models, and experimental artifacts to be saved to your Google Drive.
+1. Open the notebook using the link above and download the `.ipynb` file.
+2. Open Google Colab and upload the downloaded notebook.
+3. Run the notebook from the beginning using **Runtime → Run all**.
+4. Leave `SAVE_ARTIFACTS = False` for the standard reproducible run.
+5. Set `SAVE_ARTIFACTS = True` only if you want generated datasets, trained models, and experimental artifacts to be saved to your Google Drive.
 
-The notebook downloads the required public repository data and artifacts directly from GitHub. Google Drive access is not required unless artifact saving is explicitly enabled.
+The notebook downloads the required datasets, pretrained models, and experimental artifacts from the anonymized review repository. Google Drive access is not required unless artifact saving is explicitly enabled.
 
 Two execution scenarios are supported:
 
@@ -33,7 +34,7 @@ Two execution scenarios are supported:
 ## Repository Structure
 
 ```text
-ethereum-anomaly-detection-xai/
+repository/
 ├── data/                       # Raw, parsed, and prepared datasets
 │   ├── source/                 # Raw and parsed transaction data
 │   └── splits/                 # Train, validation, calibration, holdout
@@ -72,7 +73,7 @@ The notebook was developed and tested primarily in Google Colab.
 
 Main environment:
 
-Python 3.12
+Python 3.13
 TensorFlow 2.20
 NumPy
 pandas
