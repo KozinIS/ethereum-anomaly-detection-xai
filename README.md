@@ -73,7 +73,7 @@ The notebook was developed and tested primarily in Google Colab.
 
 Main environment:
 
-Python 3.13
+Python 3.12
 TensorFlow 2.20
 NumPy
 pandas
